@@ -19,37 +19,32 @@
   <meta name="twitter:description" content="Leak-proof, 304 stainless, double-walled, BPA-free — the perfect travel buddy for dogs & cats.">
   <meta name="twitter:image" content="https://i.postimg.cc/j5Ldr4T4/Bottle-black.png">
 
-  <!-- Optional: Preload hero image for LCP -->
-  <link rel="preload" as="image" href="https://i.postimg.cc/j5Ldr4T4/Bottle-black.png">
-
   <style>
     :root{
       --ink:#0f172a; --muted:#6b7280; --bg:#0b1220; --card:#0f172a;
       --panel:#0b1220; --meesho:#8200ff; --accent:#22c55e;
-      --ring:0 0 0 3px rgba(130,0,255,.2);
       --shadow:0 20px 40px rgba(2,6,23,.35);
       --soft:0 8px 20px rgba(2,6,23,.25);
       --radius:18px;
     }
     *{box-sizing:border-box}
     body{margin:0;background:linear-gradient(180deg,#0b1220 0%,#0a1020 100%);color:#e5e7eb;font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Arial}
-    a{color:inherit}
+    a{color:inherit;text-decoration:none}
     .wrap{max-width:1100px;margin:0 auto;padding:22px}
     .hero{display:grid;grid-template-columns:1fr 1fr;gap:18px}
     @media (max-width:980px){.hero{grid-template-columns:1fr;}}
     .card{background:linear-gradient(180deg,#0f172a 0%,#0d1528 100%);border:1px solid rgba(255,255,255,.06);border-radius:var(--radius);box-shadow:var(--shadow);overflow:hidden}
     .pad{padding:22px}
-    h1{margin:0 0 8px;font-size:28px;letter-spacing:.2px;color:#f8fafc}
+    h1{margin:0 0 8px;font-size:28px;color:#f8fafc}
     .sub{margin:0 0 16px;color:#9ca3af}
     .price{display:flex;gap:12px;align-items:baseline;margin:8px 0 6px}
     .now{font-size:26px;font-weight:800;color:#f8fafc}
     .mrp{text-decoration:line-through;color:#9ca3af}
-    .pill{display:inline-flex;gap:8px;align-items:center;background:rgba(34,197,94,.12);color:#86efac;border:1px solid rgba(34,197,94,.25);border-radius:999px;padding:4px 10px;font-weight:700;font-size:12px}
+    .pill{background:rgba(34,197,94,.12);color:#86efac;border:1px solid rgba(34,197,94,.25);border-radius:999px;padding:4px 10px;font-weight:700;font-size:12px}
     .mediaPanel{display:flex;flex-direction:column;gap:14px;padding:14px}
     .mediaBox{background:#0a1220;border:1px solid rgba(255,255,255,.06);border-radius:16px;box-shadow:var(--soft);display:grid;place-items:center;min-height:420px}
-    @media (max-width:980px){.mediaBox{min-height:320px}}
     .mediaBox img{max-width:100%;max-height:80vh;object-fit:contain;display:block}
-    .videoWrap{position:relative;width:100%;max-width:520px;aspect-ratio:16/9;border-radius:16px;overflow:hidden;border:1px solid rgba(255,255,255,.06);box-shadow:var(--soft)}
+    .videoWrap{position:relative;width:100%;aspect-ratio:16/9;border-radius:16px;overflow:hidden;border:1px solid rgba(255,255,255,.06);box-shadow:var(--soft)}
     .videoWrap iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
     .cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:10px}
     .btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:14px 18px;border-radius:12px;font-weight:800;text-decoration:none;transition:transform .06s ease, box-shadow .15s ease}
@@ -67,34 +62,13 @@
     .badge{display:inline-flex;align-items:center;gap:8px;border:1px dashed rgba(255,255,255,.14);border-radius:999px;padding:6px 12px;color:#cbd5e1;font-weight:700}
     .badge .dot{width:8px;height:8px;border-radius:999px;background:#22c55e;box-shadow:0 0 0 6px rgba(34,197,94,.16)}
   </style>
-
-  <!-- Product Schema -->
-  <script type="application/ld+json">
-  {
-    "@context":"https://schema.org/",
-    "@type":"Product",
-    "name":"3-in-1 Stainless Steel Pet Water Bottle with Feeder & Bowl | IcyBlue | 32oz (Approx. 950ml)",
-    "image":["https://i.postimg.cc/j5Ldr4T4/Bottle-black.png"],
-    "description":"304 stainless steel, double-walled, BPA-free lid, leak-proof. Water + feeder + bowl in one travel bottle for dogs & cats.",
-    "brand":{"@type":"Brand","name":"K9Pawz"},
-    "sku":"K9P-SS-ICYBLUE-32OZ",
-    "offers":{
-      "@type":"Offer",
-      "priceCurrency":"INR",
-      "price":"1288",
-      "url":"https://meesho.com/3-in-1-stainless-steel-pet-water-bottle-with-feeder--bowl--icyblue--32oz-approx-950ml/p/9kvtwt",
-      "availability":"https://schema.org/InStock"
-    }
-  }
-  </script>
 </head>
 <body>
   <div class="wrap">
-    <!-- Top: two-column media with CTA -->
     <div class="hero">
-      <!-- Left: PHOTO (no crop) -->
+      <!-- Left: Product Image -->
       <div class="card mediaPanel">
-        <div class="mediaBox" aria-label="Product image">
+        <div class="mediaBox">
           <img src="https://i.postimg.cc/j5Ldr4T4/Bottle-black.png"
                alt="3-in-1 Stainless Steel Pet Water Bottle with Feeder & Bowl (IcyBlue, 32oz)"
                loading="eager" fetchpriority="high">
@@ -104,15 +78,14 @@
         </div>
       </div>
 
-      <!-- Right: VIDEO + CTA -->
+      <!-- Right: Video + CTA -->
       <div class="card mediaPanel">
-        <div class="videoWrap" aria-label="Product video">
+        <div class="videoWrap">
           <iframe
             src="https://www.youtube.com/embed/62An_XmHN9E"
             title="3-in-1 Pet Bottle Demo"
             loading="lazy"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
             allowfullscreen>
           </iframe>
         </div>
@@ -123,10 +96,17 @@
             <span class="pill">Save ₹12</span>
           </div>
           <div class="cta">
-            <a class="btn primary" href="https://meesho.com/3-in-1-stainless-steel-pet-water-bottle-with-feeder--bowl--icyblue--32oz-approx-950ml/p/9kvtwt" target="_blank" rel="nofollow noopener">
-              🛒 Buy on Meesho
-            </a>
-            <a class="btn ghost" href="#details">See features & FAQs</a>
+            <a class="btn primary" href="https://meesho.com/3-in-1-stainless-steel-pet-water-bottle-with-feeder--bowl--icyblue--32oz-approx-950ml/p/9kvtwt" target="_blank" rel="nofollow noopener">🛒 Buy on Meesho</a>
+
+            <!-- WhatsApp Share -->
+            <a class="btn ghost"
+               href="https://wa.me/?text=Check%20out%20this%20amazing%203-in-1%20Stainless%20Steel%20Pet%20Water%20Bottle!%20Perfect%20for%20dogs%20and%20cats.%20Buy%20here:%20https%3A%2F%2Fmeesho.com%2F3-in-1-stainless-steel-pet-water-bottle-with-feeder--bowl--icyblue--32oz-approx-950ml%2Fp%2F9kvtwt"
+               target="_blank" rel="noopener">📲 Share on WhatsApp</a>
+
+            <!-- Instagram Share -->
+            <a class="btn ghost"
+               href="https://www.instagram.com/?url=https%3A%2F%2Fmeesho.com%2F3-in-1-stainless-steel-pet-water-bottle-with-feeder--bowl--icyblue--32oz-approx-950ml%2Fp%2F9kvtwt"
+               target="_blank" rel="noopener">📷 Share on Instagram</a>
           </div>
         </div>
       </div>
@@ -134,7 +114,7 @@
 
     <!-- Details -->
     <div id="details" class="card pad" style="margin-top:18px;">
-      <h1>3-in-1 Stainless Steel Pet Water Bottle | Feeder & Bowl | IcyBlue | 32oz (Approx. 950ml)</h1>
+      <h1>3-in-1 Stainless Steel Pet Water Bottle | Feeder & Bowl | IcyBlue | 32oz (950ml)</h1>
       <p class="sub">Your Pet’s Favorite Travel Buddy – Hydrate & feed on-the-go.</p>
 
       <div class="grid">
@@ -158,9 +138,13 @@
             <p><b>Q:</b> Will it keep water cold?<br><b>A:</b> The double-walled body helps retain temperature for hours.</p>
           </details>
           <div class="cta">
-            <a class="btn primary" href="https://meesho.com/3-in-1-stainless-steel-pet-water-bottle-with-feeder--bowl--icyblue--32oz-approx-950ml/p/9kvtwt" target="_blank" rel="nofollow noopener">
-              🛒 Buy on Meesho
-            </a>
+            <a class="btn primary" href="https://meesho.com/3-in-1-stainless-steel-pet-water-bottle-with-feeder--bowl--icyblue--32oz-approx-950ml/p/9kvtwt" target="_blank" rel="nofollow noopener">🛒 Buy on Meesho</a>
+            <a class="btn ghost"
+               href="https://wa.me/?text=Check%20out%20this%20amazing%203-in-1%20Stainless%20Steel%20Pet%20Water%20Bottle!%20Perfect%20for%20dogs%20and%20cats.%20Buy%20here:%20https%3A%2F%2Fmeesho.com%2F3-in-1-stainless-steel-pet-water-bottle-with-feeder--bowl--icyblue--32oz-approx-950ml%2Fp%2F9kvtwt"
+               target="_blank" rel="noopener">📲 Share on WhatsApp</a>
+            <a class="btn ghost"
+               href="https://www.instagram.com/?url=https%3A%2F%2Fmeesho.com%2F3-in-1-stainless-steel-pet-water-bottle-with-feeder--bowl--icyblue--32oz-approx-950ml%2Fp%2F9kvtwt"
+               target="_blank" rel="noopener">📷 Share on Instagram</a>
           </div>
         </div>
       </div>
